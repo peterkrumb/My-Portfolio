@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,300,400,500,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92d00a434c.js" crossorigin="anonymous"></script>
+</head>
+<body class="resume">
+    <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <section id="menu">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./resume.html">Education</a>
+            <a href="./work.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </section>
+    <section class="info-section">
+        <div class="logo">
+            PETER
+        </div>
+        <div class="info-box">
+            <h4>Email</h4>
+            <p>petekrumb@gmail.com</p>
+            <h4>Phone</h4>
+            <p>708-646-3556</p>
+            <h4>Find Me On</h4>
+            <div class="icon-section">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <i></i>
+            </div>
+        </div>
+        
+    </section>
+    <section class=content-area>
+        <div class="scroll-section">
+            <!-- Education Starts -->
+            <div class="category">
+                <div class="title">
+                    <h1>Education</h1>
+                </div>
+                <div class="xp-section">
+                    <div class="xp-box">
+                        <h5>Full-Stack Developer Bootcamp</h5>
+                        <p>Northwestern University, Chicago, IL</p>
+                        <p>Session: 2019-2020</p>
+                        <p>A 12-week intensive program focused on gaining technical programming skills in HTML5, CSS3,
+                            Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js &
+                            ReactJS</p>
+                    </div>
+                    <div class="xp-box">
+                        <h5>Bachelor of Arts</h5>
+                        <p>University of Denver</p>
+                        <p>Session: 2013-2014</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Ends -->
+            <!-- Work Experience Starts -->
+
+    
+       </div>
+    </section>
+    
+    <script src="/js/index.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script>
+        $('.menu-icon').on('click', function() {
+         if($(this).hasClass('active')) {
+
+    $(".resume.menu-active").removeClass("menu-active");
+     $(".menu-icon.active").removeClass("active");
+        } else {
+    $('.resume').addClass("menu-active");
+    $('.menu-icon').addClass("active");
+        }
+})
+    </script>
+    <link rel="stylesheet" href="./scss/main.scss">
+    
+</body>
+</html>
