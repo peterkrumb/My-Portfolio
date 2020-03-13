@@ -8,7 +8,7 @@
         width: 65%;
         margin-left: 35%;
         background: white;
-        height: 100%;
+        height: 114%;
         
 
         .img-container{
@@ -78,7 +78,7 @@ box-shadow: 9px 20px 74px 6px rgba(0,0,0,0.34);
             color: white;
 
             .fas{
-                color: $color5;
+                color: black;
             }
         }
         .content-area{
@@ -96,7 +96,7 @@ box-shadow: 9px 20px 74px 6px rgba(0,0,0,0.34);
             .logo{
                 height: 50px;
                 width: 70px;
-                font-size: 1rem;
+                font-size: .5rem;
             }
             .info-box{
                 display: none;
@@ -209,7 +209,7 @@ box-shadow: 9px 20px 74px 6px rgba(0,0,0,0.34);
             .profile-section{
                 width: 70%;
                 float: left;
-                padding: 20% 60px 0;
+                padding: 6% 60px 0;
                 max-width: 800px;
             }
         }
