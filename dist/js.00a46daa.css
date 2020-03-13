@@ -200,6 +200,7 @@ html, body {
   background: #fefefe;
   width: 65%;
   margin-left: 35%;
+  overflow-y: scroll;
   background: white;
   height: 114%; }
   .home .content-area .img-container {
