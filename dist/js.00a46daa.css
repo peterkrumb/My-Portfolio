@@ -144,7 +144,6 @@ html, body {
   padding: 56px; }
 
 .logo {
-  border: 5px solid #fff;
   height: 130px;
   width: 150px;
   display: flex;
@@ -152,7 +151,12 @@ html, body {
   align-items: center;
   font-size: 2rem;
   color: white;
-  line-height: 0; }
+  line-height: 0;
+  background: url("https://i.imgur.com/LTGK8aa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1; }
 
 .info-section {
   width: 35%;
@@ -202,7 +206,7 @@ html, body {
   margin-left: 35%;
   overflow-y: scroll;
   background: white;
-  height: 114%; }
+  height: 100%; }
   .home .content-area .img-container {
     position: relative;
     width: 30%;
@@ -263,7 +267,7 @@ html, body {
     .home .info-section .logo {
       height: 50px;
       width: 70px;
-      font-size: .5rem; }
+      font-size: 0.5rem; }
     .home .info-section .info-box {
       display: none; }
   .home .content-area {
@@ -363,7 +367,7 @@ html, body {
       max-width: 1000px; }
       .resume .content-area .category .xp-section .xp-box {
         padding: 30px;
-        transition: all .5s ease-in-out;
+        transition: all 0.5s ease-in-out;
         cursor: pointer; }
         .resume .content-area .category .xp-section .xp-box:hover {
           -webkit-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.12);
@@ -377,9 +381,14 @@ html, body {
           font-weight: 300;
           font-size: 1rem;
           margin-bottom: 1rem; }
+      .resume .content-area .category .xp-section .xp-box-btn {
+        padding: 30px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer; }
 
 @media (max-width: 767px) {
-  html, body {
+  html,
+  body {
     height: auto; }
   .resume .menu-icon {
     top: -3px;
@@ -689,13 +698,14 @@ html, body {
       font-size: 1.5rem;
       margin-bottom: 1.2rem; }
     .contact .content-area .form-section input[type="text"],
-    .contact .content-area .form-section input[type="email"], .contact .content-area .form-section textarea {
+    .contact .content-area .form-section input[type="email"],
+    .contact .content-area .form-section textarea {
       width: 100%;
       background: transparent;
       border: none;
       border-bottom: 2px solid #a9a9a9;
-      margin-bottom: .2rem;
-      font-size: .8rem;
+      margin-bottom: 0.2rem;
+      font-size: 0.8rem;
       line-height: 1.2;
       color: #a9a9a9;
       padding: 15px 0; }
@@ -729,7 +739,7 @@ html, body {
       max-width: 600px;
       width: 100%;
       padding: 30px;
-      transition: all .5s ease-in-out;
+      transition: all 0.5s ease-in-out;
       cursor: pointer; }
       .contact .content-area .contact-section .contact-info .contact-box:hover {
         -webkit-box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.12);
@@ -777,7 +787,8 @@ html, body {
     .contact .content-area .img-container {
       width: 100%;
       padding: 56px 20px 0;
-      height: auto; }
+      height: auto;
+      margin-bottom: 35px; }
       .contact .content-area .img-container .form-section {
         position: static;
         width: 100%;
@@ -792,7 +803,7 @@ html, body {
   .contact .info-section .icon-section a {
     font-size: 1.4rem; }
   .contact .content-area {
-    height: auto;
+    height: 100%;
     overflow: hidden;
     overflow-y: scroll; }
     .contact .content-area:after {
@@ -817,7 +828,7 @@ html, body {
   .contact .info-section .icon-section {
     font-size: 1.4rem; }
   .contact .content-area {
-    height: auto; }
+    height: 100%; }
     .contact .content-area:after {
       content: "";
       display: table;
@@ -870,10 +881,11 @@ html, body {
 * {
   box-sizing: border-box; }
 
-html, body {
+html,
+body {
   font-size: 18px;
   background: #4b21ff;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   height: 100%; }
 
 .menu-icon {
@@ -881,7 +893,8 @@ html, body {
   top: 36px;
   right: 36px;
   padding: 20px;
-  z-index: 11; }
+  z-index: 11;
+  cursor: pointer; }
   .menu-icon .fas {
     font-size: 2rem;
     color: #4b21ff; }
@@ -932,7 +945,7 @@ html, body {
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: all .5s ease-in-out; }
+  transition: all 0.5s ease-in-out; }
   #menu nav {
     width: 400px;
     text-align: center; }

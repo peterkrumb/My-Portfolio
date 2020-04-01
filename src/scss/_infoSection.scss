@@ -1,5 +1,5 @@
 .logo{
-    border: 5px solid #fff;
+    //border: 5px solid #fff;
     height: 130px;
     width: 150px;
     display: flex;
@@ -8,6 +8,11 @@
     font-size: 2rem;
     color: white;
     line-height: 0;
+    background: url('https://i.imgur.com/LTGK8aa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
 }
 .info-section{
     width: 35%;
